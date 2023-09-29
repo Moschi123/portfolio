@@ -2,7 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 import { AboutItem } from "../components/About/AboutItem";
 import { yellow, blue, pink } from "../components/utils/index";
-import calendar from "./utils/pantallazoo.jpg"
+import calendar from "./utils/pantallazoo.png"
 
 const StyledContainer = styled.div`
   display: flex;
