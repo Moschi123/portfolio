@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import NavBar from './NavBar';
-import franco from "../../public/img/noback.jpg"
+import franco from "./images/"
 import { MeshDistortMaterial, OrbitControls, Sphere } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
 const Section = styled.div`
@@ -135,7 +135,7 @@ const  Hero =()=>{
            
           </WhatWeDo>
          <Desc>
-         I enjoy gardening,styling , mate, and hang out with my  friends
+         I enjoy gardening,styling, mate, and hang out with my  friends
 
             </Desc>
             <Button><p>Learn More</p></Button>
@@ -155,7 +155,7 @@ const  Hero =()=>{
           speed={2}/>
           </Sphere>
          </Canvas>
-         <StyledImg src="../../public/img/noback.jpg" alt="Descripción de la imagen" />
+         <StyledImg src="./images/noback.jpg" alt="Descripción de la imagen" />
         </Right>
        </Container>
         </Section>
