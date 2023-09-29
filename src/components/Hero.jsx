@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import NavBar from './NavBar';
-import franco from "../../public/img/"
 import { MeshDistortMaterial, OrbitControls, Sphere } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
 const Section = styled.div`
