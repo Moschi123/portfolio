@@ -2,6 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 import { AboutItem } from "../components/About/AboutItem";
 import { yellow, blue, pink } from "../components/utils/index";
+import calendar from "./utils/pantallazoo.jpg"
 
 const StyledContainer = styled.div`
   display: flex;
@@ -77,7 +78,7 @@ const Calendar = () => {
   return (
     <StyledContainer>
    <StyledImgLink href="https://calendar-buho.vercel.app/ " target="_blank">
-     <StyledImg src="../../public/img/pantallazoo.png" alt="Descripción de la imagen" />
+     <StyledImg src={calendar} alt="Descripción de la imagen" />
    </StyledImgLink>
      
       <Desc>

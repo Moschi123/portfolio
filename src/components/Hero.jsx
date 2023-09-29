@@ -2,6 +2,8 @@ import styled from 'styled-components';
 import NavBar from './NavBar';
 import { MeshDistortMaterial, OrbitControls, Sphere } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
+import franco from "./utils/noback.jpg"
+
 const Section = styled.div`
   height: 100vh;
   scroll-snap-align:center;
@@ -154,7 +156,7 @@ const  Hero =()=>{
           speed={2}/>
           </Sphere>
          </Canvas>
-         <StyledImg src="../../public/img/noback.jpg" alt="Descripción de la imagen" />
+         <StyledImg src={franco} alt="Descripción de la imagen" />
         </Right>
        </Container>
         </Section>
