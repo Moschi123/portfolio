@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 import Calendar from "./Calendar";
 import Ecomerce from './E-comerce';
+import Travel from "./Travel"
 import { yellow, blue,pink,green } from "../components/utils/index";
 import { useState } from 'react';
 const data=[
  
-  "Proyects",
+  "Camp",
   "Calendar",
   "Ecomerce"
 ,
@@ -130,8 +131,15 @@ const  Works =()=>{
         
         </Left>
         <Right>
-     
-       {work  === "Calendar" ? (<Calendar/>):  (<Ecomerce/>)}
+         {work  === "Calendar" 
+         ?(
+          <Calendar/>
+         ):work ==="Ecomerce" ?(
+          <Ecomerce/>
+         ): (
+          <Travel/>
+         )}
+       
         </Right>
     
        </Container>

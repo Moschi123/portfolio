@@ -136,7 +136,7 @@ const  Hero =()=>{
            
           </WhatWeDo>
          <Desc>
-         I enjoy gardening,styling, mate, and hang out with my  friends
+         I enjoy gardening,styling,and  mate.
 
             </Desc>
             <Button><p>Learn More</p></Button>
