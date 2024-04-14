@@ -136,7 +136,7 @@ const  Hero =()=>{
            
           </WhatWeDo>
          <Desc>
-         I enjoy gardening,styling,and  mate.
+       Full Stack Developer with a passion for collaborative projects and innovative solutions. Skilled in Node.js, MongoDB, React.js, Redux Toolkit, and PostgreSQL. Strong background in agile methodologies, GIT, data structures, algorithms, . Proven ability to work effectively in teams, resilient in facing challenges, and deeply committed to delivering high-quality results.
 
             </Desc>
             <Button><p>Learn More</p></Button>
